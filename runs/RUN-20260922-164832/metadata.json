@@ -1,0 +1,16 @@
+{
+    "run_id": "RUN-20260922-164832",
+    "profile": "normal",
+    "mode": "tunnel",
+    "address_family": "ipv4",
+    "direction": "vm1-to-vm2",
+    "source_vm": 1,
+    "destination_vm": 2,
+    "source_ip": "10.20.1.1",
+    "destination_ip": "10.20.2.1",
+    "duration_seconds": 10,
+    "packet_size_bytes": 512,
+    "rate": 5.0,
+    "start_time": "2026-09-22T16:48:32.422873+00:00",
+    "end_time": "2026-09-22T16:49:04.931419+00:00"
+}

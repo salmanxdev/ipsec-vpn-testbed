@@ -1,0 +1,16 @@
+{
+    "run_id": "RUN-20260922-163117",
+    "profile": "email",
+    "mode": "transport",
+    "address_family": "ipv4",
+    "direction": "vm2-to-vm1",
+    "source_vm": 2,
+    "destination_vm": 1,
+    "source_ip": "10.10.10.2",
+    "destination_ip": "10.10.10.1",
+    "duration_seconds": 10,
+    "packet_size_bytes": 256,
+    "rate": 1,
+    "start_time": "2026-09-22T16:31:17.295535+00:00",
+    "end_time": "2026-09-22T16:31:23.073742+00:00"
+}

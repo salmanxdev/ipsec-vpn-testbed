@@ -1,0 +1,15 @@
+{
+    "run_id": "RUN-20260922-143150",
+    "profile": "icmp",
+    "mode": "tunnel",
+    "address_family": "ipv4",
+    "direction": "vm1-to-vm2",
+    "source_vm": 1,
+    "source_ip": "10.20.1.1",
+    "destination_ip": "10.20.2.1",
+    "duration_seconds": 5,
+    "packet_size_bytes": 256,
+    "rate": 1,
+    "start_time": "2026-09-22T14:31:50.501647+00:00",
+    "end_time": "2026-09-22T14:31:58.870958+00:00"
+}

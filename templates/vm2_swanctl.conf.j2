@@ -1,0 +1,50 @@
+connections {
+
+    ipsec-test {
+
+        version = 2
+
+        local_addrs = {{ local_addr }}
+        remote_addrs = {{ remote_addr }}
+
+        proposals = {{ ike_proposal }}
+
+        local {
+            id = {{ local_id }}
+            auth = psk
+        }
+
+        remote {
+            id = {{ remote_id }}
+            auth = psk
+        }
+
+        children {
+
+            net {
+
+                mode = {{ mode }}
+
+                local_ts = {{ local_ts }}
+                remote_ts = {{ remote_ts }}
+
+                esp_proposals = {{ esp_proposal }}
+
+                start_action = none
+                dpd_action = restart
+            }
+        }
+    }
+}
+
+
+secrets {
+
+    ike-psk {
+
+        id-1 = {{ local_id }}
+        id-2 = {{ remote_id }}
+
+        secret = "{{ psk }}"
+    }
+}
