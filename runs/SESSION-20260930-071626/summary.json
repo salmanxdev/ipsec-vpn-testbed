@@ -1,0 +1,21 @@
+{
+    "session_id": "SESSION-20260930-071626",
+    "vpn_state": {
+        "ike_established": true,
+        "ike_version": "IKEv2",
+        "child_sa_installed": true
+    },
+    "kernel_state": {
+        "esp_state_present": true,
+        "ah_state_present": false
+    },
+    "capture": {
+        "completed": true,
+        "file": "capture.pcap",
+        "size_bytes": 13522
+    },
+    "traffic": {
+        "generation": "manual"
+    },
+    "completed_at": "2026-09-30T07:18:39.958997-07:00"
+}
